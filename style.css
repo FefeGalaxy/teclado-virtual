@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff69c4;
+}
+
+#keyboard-container{
+    display:  flex;
+    flex-wrap: wrap;
+    width: 684px;
+    gap: 5px;
+    margin: 100px auto;
+}
+
+.layer{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+}
+
+.key{
+    background-color: #c93384;
+    color: #ffc1fc;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.key-normal{
+    width: 50px;
+    height: 70px;
+}
+.key-mayus{
+    width: 120px;
+    height: 70px;
+}
+.key-shift{
+    width: 80px;
+    height: 70px;
+}
+.key-space{
+    width: 500px;
+    height: 70px;
+}
+
+.key:hover{
+    background-color: #c44f9c;
+}
+
+.key-empty{
+    width: 25px;
+    height: 70px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activated{
+    outline: black solid 2px;
+}
+
+.input{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 50%;
+}
